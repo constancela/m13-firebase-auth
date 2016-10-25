@@ -39,7 +39,8 @@ $(function() {
     // SignIn: Function to authenticate on Firebase, then redirect to index.html
     var signIn = function() {
         // Get email and password
-
+				var email = $('#email').val();
+		var pass = $('#password').val();
 
         // Authenticate using email and password, then redirect
 
